@@ -14,7 +14,7 @@ def init_browser():
 
 def scrape_info():
     browser = init_browser()
-    listings = {}
+    #listings = {}
 
     #URL of page to be scraped
     url = 'https://mars.nasa.gov/news/'
@@ -128,8 +128,8 @@ def scrape_info():
 
     # Store data in a dictionary
     mars_data = {
-        "news_title": news_title,
-        "news_p": news_p,
+        "news_title": news_title[0],
+        "news_p": news_p[0],
         "featured_image": featured_image_url,
         "mars_weather": mars_weather,
         "mars_facts": mars_facts_table,

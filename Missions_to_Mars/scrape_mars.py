@@ -8,7 +8,7 @@ import pandas as pd
 
 def init_browser():
     # @NOTE: Replace the path with your actual path to the chromedriver
-    executable_path = {'executable_path': 'chromedriver.exe'}
+    executable_path = {'executable_path': 'c:/users/chromedriver.exe'}
     return Browser("chrome", **executable_path, headless=False)
 
 

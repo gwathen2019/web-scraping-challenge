@@ -133,7 +133,12 @@ def scrape_info():
         "featured_image": featured_image_url,
         "mars_weather": mars_weather,
         "mars_facts": mars_facts_table,
-        "hemisphere_images": hemisphere_image_urls
+        "hemisphere_images": hemisphere_image_urls,
+        "cerberus_image": cerberus_image_url,
+        "schiaparelli_image": schiaparelli_image_url,
+        "syrtis_major_image": syrtis_major_image_url,
+        "valles_marineris_image": valles_marineris_image_url
+
     }
 
     # Close the browser after scraping
